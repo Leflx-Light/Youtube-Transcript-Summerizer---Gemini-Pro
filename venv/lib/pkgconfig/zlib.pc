@@ -1,0 +1,13 @@
+prefix=/home/kpit/Desktop/Python/August 2024/YTTranscriber/venv
+exec_prefix=/home/kpit/Desktop/Python/August 2024/YTTranscriber/venv
+libdir=/home/kpit/Desktop/Python/August 2024/YTTranscriber/venv/lib
+sharedlibdir=/home/kpit/Desktop/Python/August 2024/YTTranscriber/venv/lib
+includedir=/home/kpit/Desktop/Python/August 2024/YTTranscriber/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
